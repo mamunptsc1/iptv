@@ -408,22 +408,5 @@ letter-spacing:8px;
 
 }
 
-/* BIG TV */
-
-@media screen and (min-width:1400px){
-
-.grid{
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:30px;
-}
-
-.card{
-min-height:320px;
-}
-
-.card img{
-width:120px;
-height:120px;
-}
 
 }
