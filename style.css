@@ -365,48 +365,5 @@ background:#ff0066;
 border-radius:20px;
 }
 
-/* TABLET + PC */
-
-@media screen and (min-width:768px){
-
-.content{
-padding:0 24px 100px;
-}
-
-.grid{
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:22px;
-}
-
-.card{
-min-height:260px;
-}
-
-.card img{
-width:100px;
-height:100px;
-}
-
-.card h3{
-font-size:20px;
-}
-
-.search{
-font-size:18px;
-padding:18px;
-}
-
-.category-btn{
-font-size:18px;
-padding:14px 28px;
-}
-
-.section-title{
-font-size:18px;
-letter-spacing:8px;
-}
-
-}
-
 
 }
