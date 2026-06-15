@@ -1,6 +1,6 @@
 /* CLOCK */
 
-function updateClock(){
+function updateClock() {
 
 const now = new Date();
 
@@ -29,25 +29,22 @@ const months = [
 'ডিসেম্বর'
 ];
 
-const bdTime =
-new Date(
+const bdTime = new Date(
 now.toLocaleString(
 'en-US',
-{timeZone:'Asia/Dhaka'}
+{ timeZone: 'Asia/Dhaka' }
 )
 );
 
 let hour = bdTime.getHours();
 
-const minute =
-String(
+const minute = String(
 bdTime.getMinutes()
-).padStart(2,'0');
+).padStart(2, '0');
 
-const second =
-String(
+const second = String(
 bdTime.getSeconds()
-).padStart(2,'0');
+).padStart(2, '0');
 
 const ampm =
 hour >= 12 ? 'PM' : 'AM';
@@ -56,26 +53,37 @@ hour = hour % 12;
 
 hour = hour ? hour : 12;
 
-document.getElementById(
-'clock'
-).innerHTML =
+document.getElementById('clock').innerHTML =
 `${days[bdTime.getDay()]}, ${bdTime.getDate()} ${months[bdTime.getMonth()]} ${bdTime.getFullYear()}, ${hour}:${minute}:${second} ${ampm}`;
 
 }
 
-setInterval(updateClock,1000);
+setInterval(updateClock, 1000);
 
 updateClock();
 
 /* LOAD CHANNELS */
 
-Promise.all([
-
 fetch("bangla.json")
-.then(res=>res.json())
 
-])
+.then(res => res.json())
 
+.then(data => {
+
+let mergedChannels = [];
+
+/* CATEGORY JSON SUPPORT */
+
+if (data.categories) {
+
+mergedChannels =
+Object.values(data.categories).flat();
+
+} else {
+
+mergedChannels = data;
+
+}
 
 /* REMOVE DUPLICATE */
 
@@ -83,20 +91,34 @@ const uniqueChannels = [];
 
 const seen = new Set();
 
-mergedChannels.forEach(ch=>{
+mergedChannels.forEach(ch => {
 
-const key = (
-(ch.name || '') +
-(ch.url || '')
-)
+const key =
+((ch.name || '') +
+(ch.url || ''))
 .toLowerCase()
 .trim();
 
-if(!seen.has(key)){
+if (!seen.has(key)) {
 
 seen.add(key);
 
-uniqueChannels.push(ch);
+uniqueChannels.push({
+
+name: ch.name || 'Unknown',
+
+url: ch.url || '',
+
+logo:
+ch.logo ||
+'https://i.ibb.co/3k5p1t4/live-icon.png',
+
+category:
+ch.group ||
+ch.category ||
+'Ungrouped'
+
+});
 
 }
 
@@ -104,11 +126,23 @@ uniqueChannels.push(ch);
 
 window.allChannels = uniqueChannels;
 
+/* LOAD UI */
+
 loadChannels(uniqueChannels);
 
-document.getElementById(
-'allCount'
-).innerText = uniqueChannels.length;
+/* TOTAL COUNT */
+
+const count =
+document.getElementById('allCount');
+
+if(count){
+
+count.innerText =
+uniqueChannels.length;
+
+}
+
+/* AUTO PLAY */
 
 const saved =
 localStorage.getItem(
@@ -117,23 +151,32 @@ localStorage.getItem(
 
 if(saved){
 
-setTimeout(()=>{
+setTimeout(() => {
 
 playChannel(saved);
 
-},1000);
+}, 1000);
 
 }
 
 })
 
+.catch(err => {
+
+console.error(
+'CHANNEL LOAD ERROR:',
+err
+);
+
+});
+
 /* SHOW CHANNELS */
 
-async function loadChannels(channels){
+async function loadChannels(channels) {
 
 let html = '';
 
-for(const ch of channels){
+for (const ch of channels) {
 
 html += `
 
@@ -141,7 +184,7 @@ html += `
 onclick="playChannel('${ch.url}',this)">
 
 <img
-src="${ch.logo || 'https://i.ibb.co/3k5p1t4/live-icon.png'}"
+src="${ch.logo}"
 onerror="this.src='https://i.ibb.co/3k5p1t4/live-icon.png'">
 
 <h3>${ch.name}</h3>
@@ -160,31 +203,34 @@ document.getElementById(
 
 /* CATEGORY */
 
-function filterCategory(type,el){
+function filterCategory(type, el) {
 
 document
 .querySelectorAll('.category-btn')
-.forEach(btn=>{
+.forEach(btn => {
+
 btn.classList.remove('active');
+
 });
 
+if(el){
 el.classList.add('active');
+}
 
 let filtered = [];
 
-if(type === 'all'){
+if (type === 'all') {
 
 filtered = window.allChannels;
 
-}
-
-else{
+} else {
 
 filtered =
-window.allChannels.filter(ch=>
+window.allChannels.filter(ch =>
 
-ch.category &&
-ch.category.toLowerCase() === type
+(ch.category || '')
+.toLowerCase()
+.includes(type.toLowerCase())
 
 );
 
@@ -198,83 +244,102 @@ loadChannels(filtered);
 
 document
 .getElementById('search')
-
-.addEventListener('keyup',
-
-function(){
+.addEventListener(
+'keyup',
+function () {
 
 const value =
 this.value.toLowerCase();
 
 const filtered =
-window.allChannels.filter(ch=>
+window.allChannels.filter(ch =>
 
-ch.name.toLowerCase()
+(ch.name || '')
+.toLowerCase()
 .includes(value)
 
 );
 
 loadChannels(filtered);
 
-});
+}
+);
 
 /* PLAYER */
 
-function playChannel(url,card){
+function playChannel(url, card) {
 
 localStorage.setItem(
 'lastChannel',
 url
 );
 
-document.getElementById('loader')
-.style.display='block';
+document.getElementById(
+'loader'
+).style.display = 'block';
 
 document
 .querySelectorAll('.card')
-.forEach(c=>{
+.forEach(c => {
+
 c.classList.remove('active');
+
 });
 
-if(card){
+if (card) {
+
 card.classList.add('active');
+
 }
 
 const video =
 document.getElementById('video');
-  video.onerror = function(){
 
-document.getElementById('loader')
-.style.display='none';
+video.onerror = function () {
+
+document.getElementById(
+'loader'
+).style.display = 'none';
 
 alert('Channel not working');
 
-  }
+};
 
-if(url.includes('.mp4')){
+/* MP4 */
+
+if (url.includes('.mp4')) {
 
 video.src = url;
 
-video.play().then(()=>{
+video.play()
+.then(() => {
 
-document.getElementById('loader')
-.style.display='none';
+document.getElementById(
+'loader'
+).style.display = 'none';
 
 });
 
 return;
 
 }
-  
-if(Hls.isSupported()){
 
-if(window.hls){
+/* HLS */
+
+if (Hls.isSupported()) {
+
+if (window.hls) {
+
 window.hls.destroy();
+
 }
 
 const hls = new Hls({
-enableWorker:true,
-lowLatencyMode:true
+
+enableWorker: true,
+
+lowLatencyMode: true
+
 });
 
 window.hls = hls;
@@ -285,25 +350,32 @@ hls.attachMedia(video);
 
 hls.on(
 Hls.Events.MANIFEST_PARSED,
-function(){
+function () {
 
-video.play().then(()=>{
+video.play()
+.then(() => {
 
-document.getElementById('loader')
-.style.display='none';
+document.getElementById(
+'loader'
+).style.display = 'none';
 
 });
 
-});
+}
+);
 
-}else{
+} else {
+
+/* Native HLS */
 
 video.src = url;
 
-video.play().then(()=>{
+video.play()
+.then(() => {
 
-document.getElementById('loader')
-.style.display='none';
+document.getElementById(
+'loader'
+).style.display = 'none';
 
 });
 
@@ -311,23 +383,25 @@ document.getElementById('loader')
 
 }
 
-/* REMOTE */
+/* REMOTE CONTROL */
 
 let currentIndex = 0;
 
 document.addEventListener(
 'keydown',
-function(e){
+function (e) {
 
 const video =
 document.getElementById('video');
 
-if(e.key === 'ArrowDown'){
+if (e.key === 'ArrowDown') {
 
 e.preventDefault();
 
-if(currentIndex <
-window.allChannels.length - 1){
+if (
+currentIndex <
+window.allChannels.length - 1
+) {
 
 currentIndex++;
 
@@ -343,11 +417,11 @@ document.querySelectorAll('.card')[currentIndex]
 
 }
 
-if(e.key === 'ArrowUp'){
+if (e.key === 'ArrowUp') {
 
 e.preventDefault();
 
-if(currentIndex > 0){
+if (currentIndex > 0) {
 
 currentIndex--;
 
@@ -363,9 +437,9 @@ document.querySelectorAll('.card')[currentIndex]
 
 }
 
-if(e.key === 'ArrowRight'){
+if (e.key === 'ArrowRight') {
 
-if(video.volume < 1){
+if (video.volume < 1) {
 
 video.volume += 0.1;
 
@@ -373,9 +447,9 @@ video.volume += 0.1;
 
 }
 
-if(e.key === 'ArrowLeft'){
+if (e.key === 'ArrowLeft') {
 
-if(video.volume > 0){
+if (video.volume > 0) {
 
 video.volume -= 0.1;
 
@@ -383,4 +457,5 @@ video.volume -= 0.1;
 
 }
 
-});
+}
+);
