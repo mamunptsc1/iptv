@@ -71,20 +71,11 @@ updateClock();
 
 Promise.all([
 
-fetch("channels.json")
-.then(res=>res.json()),
-
 fetch("bangla.json")
 .then(res=>res.json())
 
 ])
 
-.then(([data1,data2])=>{
-
-const mergedChannels = [
-...data1.channels,
-...data2.channels
-];
 
 /* REMOVE DUPLICATE */
 
