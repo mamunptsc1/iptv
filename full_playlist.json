@@ -1,0 +1,725 @@
+{
+  "total_channels": 117,
+  "categories": {
+    "Bangla": [
+      {
+        "name": "Star Jalsha",
+        "group": "Bangla",
+        "logo": "",
+        "url": "https://tvsen3.aynascope.net/n64PH4YL/index.m3u8"
+      }
+    ],
+    "Ungrouped": [
+      {
+        "name": "Star Jalsha 2",
+        "group": "",
+        "logo": "",
+        "url": "https://playztv-apps.pages.dev/star-jalsha/index.m3u8"
+      },
+      {
+        "name": "Star Jalsha 3",
+        "group": "",
+        "logo": "",
+        "url": "https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8"
+      },
+      {
+        "name": "zee Bangla",
+        "group": "",
+        "logo": "",
+        "url": "http://main.epgmaker.com/live/y49sz6KMQs/6115263489/536.ts"
+      },
+      {
+        "name": "zee Bangla 3",
+        "group": "",
+        "logo": "",
+        "url": "http://starshare.cx:80/PeH5kPWFfG/infamous7funny/23305"
+      },
+      {
+        "name": "Zee Bangla 4",
+        "group": "",
+        "logo": "",
+        "url": "http://103.159.180.34:5001/live/625.m3u8"
+      },
+      {
+        "name": "SONY MAX SD",
+        "group": "",
+        "logo": "",
+        "url": "http://103.158.133.62:8080/sonymax/index.m3u8"
+      },
+      {
+        "name": "Gopal Bhar TV",
+        "group": "",
+        "logo": "",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Enter10 Bangla",
+        "group": "",
+        "logo": "",
+        "url": "https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8"
+      },
+      {
+        "name": "T Sports HD 2",
+        "group": "",
+        "logo": "",
+        "url": "http://198.195.239.50:8095/tsports/index.m3u8"
+      },
+      {
+        "name": "Jumuna TV",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8"
+      },
+      {
+        "name": "Somoy TV",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8"
+      },
+      {
+        "name": "Channel 24",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8"
+      },
+      {
+        "name": "Independent TV",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8"
+      },
+      {
+        "name": "Ekattor",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8"
+      },
+      {
+        "name": "ATN NEWS",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8"
+      },
+      {
+        "name": "BTV",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1707/output/index.m3u8"
+      },
+      {
+        "name": "NEWS24",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8"
+      },
+      {
+        "name": "BTV",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8"
+      },
+      {
+        "name": "Star News",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8"
+      },
+      {
+        "name": "Deepto",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
+      },
+      {
+        "name": "BPK TV 1713",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8"
+      },
+      {
+        "name": "Bangla Vision",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8"
+      },
+      {
+        "name": "N TV",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8"
+      },
+      {
+        "name": "SA TV",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8"
+      },
+      {
+        "name": "ATN BANGLA",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8"
+      },
+      {
+        "name": "machranga",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8"
+      },
+      {
+        "name": "Channel I",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8"
+      },
+      {
+        "name": "islamic tv",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8"
+      },
+      {
+        "name": "DBC NEWS",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8"
+      },
+      {
+        "name": "Channel 9",
+        "group": "",
+        "logo": "",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8"
+      },
+      {
+        "name": "RTV Live",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen6.aynaott.com/rtv/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Deepto TV",
+        "group": "",
+        "logo": "",
+        "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8"
+      },
+      {
+        "name": "Ekushe TV",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen6.aynaott.com/etv/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Channel S TV",
+        "group": "",
+        "logo": "",
+        "url": "https://app.ncare.live/live-orgin/channels.stream/live-orgin/channels.stream/chunks.m3u8"
+      },
+      {
+        "name": "Boishakhi TV",
+        "group": "",
+        "logo": "",
+        "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8"
+      },
+      {
+        "name": "GTV",
+        "group": "",
+        "logo": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "name": "Mohona TV",
+        "group": "",
+        "logo": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "name": "Desh TV",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen6.aynaott.com/deshtv/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Bijoy TV",
+        "group": "",
+        "logo": "",
+        "url": "https://stream.ottplus.live/live/bijoy_tv_abr/live/bijoy_tv_480/chunks.m3u8"
+      },
+      {
+        "name": "Nexus TV",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen6.aynaott.com/nexustv/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Global TV",
+        "group": "",
+        "logo": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "name": "Channel 1 TV",
+        "group": "",
+        "logo": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "name": "Ayna TV",
+        "group": "",
+        "logo": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "name": "Jago News 24",
+        "group": "",
+        "logo": "",
+        "url": "https://app.ncare.live/live-orgin/jagonews24.stream/live-orgin/jagonews24.stream/chunks.m3u8"
+      },
+      {
+        "name": "Ekhon TV",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen6.aynaott.com/ekhontv/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Independent TV",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen6.aynaott.com/independenttv/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "ATN News HD",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen6.aynaott.com/atnnews/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Willow TV",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Star Sports 1 HD",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen7.aynaott.com/sspts1/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Star sports 1",
+        "group": "",
+        "logo": "",
+        "url": "http://198.195.239.50:8095/SonyTenSports5/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "name": "CNN Now",
+        "group": "",
+        "logo": "",
+        "url": "https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-samsungin-cnnnow-samsungin/playlist.m3u8"
+      },
+      {
+        "name": "DW English HD",
+        "group": "",
+        "logo": "",
+        "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"
+      },
+      {
+        "name": "Tom & Jerry TV",
+        "group": "",
+        "logo": "",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Doraemon TV",
+        "group": "",
+        "logo": "",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Mr Bean Animated",
+        "group": "",
+        "logo": "",
+        "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8"
+      },
+      {
+        "name": "Cartoon Network",
+        "group": "",
+        "logo": "",
+        "url": "https://tvsen5.aynaott.com/cartoonnetwork/tracks-v1a1/mono.ts.m3u8"
+      }
+    ],
+    "Indian-Bangla": [
+      {
+        "name": "Zee Bangla 2",
+        "group": "Indian-Bangla",
+        "logo": "https://i.postimg.cc/x8sgjYtH/resized-300x180-ffffff-12.jpg",
+        "url": "http://starshare.cx:80/PeH5kPWFfG/infamous7funny/435"
+      }
+    ],
+    "Sports": [
+      {
+        "name": "T Sports 🇧🇩",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/130714.ts"
+      },
+      {
+        "name": "T Sports HD B 🇧🇩",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "name": "BTV Live 🇧🇩",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://103.14.151.101:11/FIFA/2026/hoichoi24com/tvnetwork2/manik-kuttar-baccha-telegram-batpar.m3u8"
+      },
+      {
+        "name": "Bioscope Live 🇧🇩",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://bioscope.sm-monirulislam-exp.workers.dev/bioscope.m3u8"
+      },
+      {
+        "name": "PTV Sports 🇵🇰",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8"
+      },
+      {
+        "name": "Somoy TV 🇧🇩",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://114.130.57.224:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1"
+      },
+      {
+        "name": "Somoy TV B 🇧🇩",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
+      },
+      {
+        "name": "Somoy TV C 🇧🇩",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://iptv.ryvoxtb.workers.dev/live/somoytv.m3u8?token=698bb62d6919e5c22ec8be7a017971f5&time=1781488364"
+      },
+      {
+        "name": "Zibo Play",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://fifaexclusive.myziboplay.xyz/Fifa/index.m3u8?token=fe6Uuugm3xgIm2"
+      },
+      {
+        "name": "Zee Bangla Cinema 🇮🇳",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/277428.ts"
+      },
+      {
+        "name": "Unite 8 Sports 1 HD 🇮🇳 Hindi",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/741567.ts"
+      },
+      {
+        "name": "Unite 8 Sports 2 HD",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://202.70.146.135:8000/play/a06s/index.m3u8"
+      },
+      {
+        "name": "616 Sports 4K",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/745270.ts"
+      },
+      {
+        "name": "Tampad 🇵🇰",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/master.m3u8"
+      },
+      {
+        "name": "Go Live Sports",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8"
+      },
+      {
+        "name": "Bein Sports 1 Max Arabic",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/744517.ts"
+      },
+      {
+        "name": "Go 3 Sports 1",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18000/index.m3u8"
+      },
+      {
+        "name": "Go 3 Sports 2",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18001/index.m3u8"
+      },
+      {
+        "name": "Go 3 Sports 3",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/6408/index.m3u8"
+      },
+      {
+        "name": "Fox Sports FIFA 2026",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://84.17.50.102/fox/index.m3u8"
+      },
+      {
+        "name": "TSN 1 🇺🇸 USA",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/12350.ts"
+      },
+      {
+        "name": "TSN 2 🇺🇸 USA",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/12351.ts"
+      },
+      {
+        "name": "TSN 3 🇺🇸 USA",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/12352.ts"
+      },
+      {
+        "name": "TSN 4 🇺🇸 USA",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/12353.ts"
+      },
+      {
+        "name": "TSN 5 🇺🇸 USA",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/12354.ts"
+      },
+      {
+        "name": "Caze Tv 🇧🇷 Brazil",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
+      },
+      {
+        "name": "TSN 1 🇨🇦 Canada",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/69660.ts"
+      },
+      {
+        "name": "TSN 2 🇨🇦 Canada",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/69659.ts"
+      },
+      {
+        "name": "TSN 3 🇨🇦 Canada",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/69658.ts"
+      },
+      {
+        "name": "TSN 4 🇨🇦 Canada",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/69657.ts"
+      },
+      {
+        "name": "TSN 5 🇨🇦 Canada",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/69656.ts"
+      },
+      {
+        "name": "Win Sports",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8"
+      },
+      {
+        "name": "Bein Sports",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
+      },
+      {
+        "name": "Dazn Direct",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8"
+      },
+      {
+        "name": "TVP Sports",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8"
+      },
+      {
+        "name": "D Sports",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8"
+      },
+      {
+        "name": "TYC Sports",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8"
+      },
+      {
+        "name": "Tv Azteca",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/117/index.m3u8"
+      },
+      {
+        "name": "Tudn Sports 🇲🇽",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8"
+      },
+      {
+        "name": "Tudn Sports B 🇲🇽",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/276843.ts"
+      },
+      {
+        "name": "Canal 5 🇲🇽",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/276767.ts"
+      },
+      {
+        "name": "El Heddaf",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/7731.ts"
+      },
+      {
+        "name": "Fussball Tv",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/1949446.ts"
+      },
+      {
+        "name": "Fussball Tv B",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/745269.ts"
+      },
+      {
+        "name": "Bein Sports 1 Max",
+        "group": "Sports",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/146122.ts"
+      },
+      {
+        "name": "MAX  HD",
+        "group": "Sports",
+        "logo": "",
+        "url": "https://webott.viatv.com.np/v0t1/CineplexHD.stream/chunks.m3u8"
+      }
+    ],
+    "FIFA": [
+      {
+        "name": "Caze TV",
+        "group": "FIFA",
+        "logo": "https://i.ibb.co.com/9JJ04g9/1000284076.png",
+        "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
+      },
+      {
+        "name": "T Sports 1",
+        "group": "FIFA",
+        "logo": "https://i.ibb.co.com/h1Wvy09C/1000283988.png",
+        "url": "http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/130714.ts"
+      },
+      {
+        "name": "T Sports 2",
+        "group": "FIFA",
+        "logo": "https://i.ibb.co.com/h1Wvy09C/1000283988.png",
+        "url": "http://103.59.176.72:8083/live1/tracks-v1a1/mono.m3u8?token=123"
+      },
+      {
+        "name": "Bein Sports 1",
+        "group": "FIFA",
+        "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
+      },
+      {
+        "name": "WIN Sports",
+        "group": "FIFA",
+        "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8"
+      }
+    ],
+    "Bengali": [
+      {
+        "name": "Zee Bangla Sonar (FIFA BANGLA COMMENTARY)",
+        "group": "Bengali",
+        "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540",
+        "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglacinema/default/manifest.mpd"
+      }
+    ],
+    "Football World Cup 2026": [
+      {
+        "name": "Football World Cup 2026 link hindi",
+        "group": "Football World Cup 2026",
+        "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/741567.ts"
+      },
+      {
+        "name": "Football World Cup 2026 (4K)",
+        "group": "Football World Cup 2026",
+        "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
+        "url": "https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/688290.ts"
+      },
+      {
+        "name": "Football World Cup 2026 (4K) 2",
+        "group": "Football World Cup 2026",
+        "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/745269.ts"
+      },
+      {
+        "name": "Football World Cup 2026 (4K) 3",
+        "group": "Football World Cup 2026",
+        "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/745270.ts"
+      }
+    ],
+    "FIFA WC 2026": [
+      {
+        "name": "CIGNAL TV",
+        "group": "FIFA WC 2026",
+        "logo": "https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png",
+        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/ch299/default/index.mpd"
+      },
+      {
+        "name": "FRANCE TV",
+        "group": "FIFA WC 2026",
+        "logo": "https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png",
+        "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd"
+      }
+    ],
+    "Channels": [
+      {
+        "name": "Somoy News TV",
+        "group": "Channels",
+        "logo": "https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/somoy-bd.png",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/tracks-v1a1/mono.m3u8"
+      }
+    ]
+  }
+}
